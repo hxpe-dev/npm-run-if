@@ -12,6 +12,22 @@ A tiny CLI tool to conditionally run npm scripts or shell commands based on envi
 
 ---
 
+## Installation
+
+Install **globally**:
+
+```bash
+npm install -g npm-run-if
+```
+
+Or use with `npx`:
+
+```bash
+npx npm-run-if --help
+```
+
+---
+
 ## Why?
 
 Sometimes you want to run a script **only if** certain conditions are met, for example:
@@ -32,22 +48,6 @@ Sometimes you want to run a script **only if** certain conditions are met, for e
 - ⚡ Blazing fast and dependency-light
 - 🧪 Dry-run support to preview what would be run
 - 🧵 Easily chain with npm/yarn scripts or CI pipelines
-
----
-
-## Installation
-
-Install **globally**:
-
-```bash
-npm install -g npm-run-if
-```
-
-Or use with `npx`:
-
-```bash
-npx npm-run-if --help
-```
 
 ---
 

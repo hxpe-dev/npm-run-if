@@ -1,6 +1,6 @@
 {
   "name": "npm-run-if",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Conditionally run npm scripts or commands based on env, file existence and more.",
   "bin": {
     "npm-run-if": "./bin/cli.js"
