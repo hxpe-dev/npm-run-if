@@ -1,10 +1,10 @@
 # npm-run-if
 
-> 🧠 A tiny CLI tool to conditionally run npm scripts or shell commands based on environment variables, file existence, and more.
+> A tiny CLI tool to conditionally run npm scripts or shell commands based on environment variables, file existence, and more.
 
 ---
 
-## 🕉 Why?
+## Why?
 
 Sometimes you want to run a script **only if** certain conditions are met, for example:
 
@@ -17,7 +17,7 @@ Sometimes you want to run a script **only if** certain conditions are met, for e
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Run any command only if conditions are met
 - 🌍 Works cross-platform (macOS, Linux, Windows)
@@ -27,7 +27,7 @@ Sometimes you want to run a script **only if** certain conditions are met, for e
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Install globally:
 
@@ -43,7 +43,7 @@ npx npm-run-if --help
 
 ---
 
-## 📆 Usage
+## Usage
 
 ```bash
 npm-run-if [options]
@@ -63,27 +63,27 @@ npm-run-if [options]
 
 ---
 
-## 🧪 Examples
+## Examples
 
-### ✅ Run build only if `NODE_ENV=production`
+### Run build only if `NODE_ENV=production`
 
 ```bash
 npm-run-if --env NODE_ENV=production --run "npm run build"
 ```
 
-### 🧵 Fallback message if condition fails
+### Fallback message if condition fails
 
 ```bash
 npm-run-if --exists src/index.ts --run "npm run build" --else-run "echo Skipping build"
 ```
 
-### 🚫 Run only if a file does **not** exist
+### Run only if a file does **not** exist
 
 ```bash
 npm-run-if --not-exists dist/index.js --run "npm run build"
 ```
 
-### 🔍 Show what would run (dry-run)
+### Show what would run (dry-run)
 
 ```bash
 npm-run-if --env DEBUG=true --run "npm test" --dry-run
@@ -91,7 +91,7 @@ npm-run-if --env DEBUG=true --run "npm test" --dry-run
 
 ---
 
-## 🔧 How it works
+## How it works
 
 1. Parses CLI arguments (`--env`, `--exists`, etc.)
 2. Evaluates all conditions:
@@ -103,13 +103,13 @@ npm-run-if --env DEBUG=true --run "npm test" --dry-run
 
 ---
 
-## 📄 License
+## License
 
 MIT - hxpe-dev
 
 ---
 
-## 💡 Ideas & Contributions
+## Ideas & Contributions
 
 Want to contribute a new condition type (e.g. port check, changed files, config-based conditions)? PRs and issues are welcome!
 
