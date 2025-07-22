@@ -29,6 +29,7 @@
     "url": "https://github.com/hxpe-dev/npm-run-if"
   },
   "dependencies": {
+    "dotenv": "^17.2.0",
     "globby": "^14.1.0",
     "minimist": "^1.2.8"
   }
