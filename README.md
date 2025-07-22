@@ -1,6 +1,14 @@
-# npm-run-if
-
-> A tiny CLI tool to conditionally run npm scripts or shell commands based on environment variables, file existence, and more.
+<h1 align="center">
+npm-run-if
+</h1>
+<p align="center">
+A tiny CLI tool to conditionally run npm scripts or shell commands based on environment variables, file existence, and more.
+<p>
+<p align="center">
+  <a href="https://www.npmjs.com/package/npm-run-if"><img src="https://img.shields.io/npm/v/npm-run-if?style=for-the-badge"></a>
+  <a href="https://www.npmjs.com/package/npm-run-if"><img src="https://img.shields.io/npm/dw/npm-run-if?style=for-the-badge"></a>
+  <a href="https://www.npmjs.com/package/npm-run-if"><img src="https://img.shields.io/npm/last-update/npm-run-if?style=for-the-badge"></a>  
+<p>
 
 ---
 
@@ -29,7 +37,7 @@ Sometimes you want to run a script **only if** certain conditions are met, for e
 
 ## Installation
 
-Install globally:
+Install **globally**:
 
 ```bash
 npm install -g npm-run-if
