@@ -1,0 +1,35 @@
+{
+  "name": "npm-run-if",
+  "version": "0.1.0",
+  "description": "Conditionally run npm scripts or commands based on env, file existence and more.",
+  "bin": {
+    "npm-run-if": "./bin/cli.js"
+  },
+  "files": [
+    "bin",
+    "lib"
+  ],
+  "keywords": [
+    "npm",
+    "cli",
+    "scripts",
+    "conditional",
+    "env",
+    "dev-tool"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hxpe",
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hxpe-dev/npm-run-if"
+  },
+  "dependencies": {
+    "globby": "^14.1.0",
+    "minimist": "^1.2.8"
+  }
+}
