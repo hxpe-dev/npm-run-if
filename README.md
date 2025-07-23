@@ -123,5 +123,4 @@ Want to contribute a new condition type (e.g. port check, changed files, config-
 
 ---
 
-Created with ❤️ by [hxpe](https://github.com/hxpe-dev)
-
+**Made with ❤️ by [hxpe](https://github.com/hxpe-dev)**
